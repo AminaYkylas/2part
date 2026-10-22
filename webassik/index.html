@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Individual Work</title>
+  <style>
+    section { border: 2px solid #d19bba; padding: 20px; margin-bottom: 20px; }
+    .card { padding: 20px; border: 1px solid #18266e; margin-top: 10px; }
+    .highlight { background-color: #c72334; }
+  </style>
+</head>
+<body>
+
+  <h1>Part 2</h1>
+
+  <section>
+    <h2>Task 6</h2>
+    <p>Current count: <span id="counter">0</span></p>
+    <button id="btnIncrease">Increase</button>
+    <button id="btnDecrease">Decrease</button>
+    <button id="btnReset">Reset</button>
+  </section>
+
+  <section>
+    <h2>Task 7</h2>
+    <label for="textInput">Type something:</label>
+    <input type="text" id="textInput" placeholder="Start typing...">
+    <button id="btnClear">Clear</button>
+    <p>Preview: <span id="preview">Your text will be here</span></p>
+    <p>Characters: <span id="char">0</span></p>
+  </section>
+
+  <section>
+    <h2>Task 8</h2>
+    <label for="biasSelect">Choose a bias:</label>
+    <select id="biasSelect">
+      <option value="rose">Rose</option>
+      <option value="jenny">Jenny</option>
+      <option value="lisa">Lisa</option>
+      <option value="jisoo">Jisoo</option>
+    </select>
+    <br><br>
+    <img id="biasImage" src="images.jpeg" alt="rose" width="200">
+    <p id="imageCaption">An angel-voice Rose</p>
+  </section>
+
+ 
+  <section>
+    <h2>Task 9</h2>
+    <label for="keyboardInput">Type here:</label>
+    <input type="text" id="keyboardInput" placeholder="Press keys...">
+    <p>Status: <span id="keyStatus">Waiting for keypress...</span></p>
+    <p>Result (Press Enter): <strong id="keyResult"></strong></p>
+  </section>
+
+
+  <section>
+    <h2>Task 10</h2>
+    <p id="hoverInstruction">Hover over or focus on the card below.</p>
+    <div id="focusCard" class="card" tabindex="0">
+      I am a focusable card!
+    </div>
+  </section>
+
+ 
+  <script src="js/script.js"></script>
+</body>
+</html>
